@@ -1,0 +1,113 @@
+import "@fontsource/fredoka/600.css";
+import type { Site } from "./lib";
+
+export const SITE: Site = {
+  name: "Touch of Spice",
+  sub: { en: "Pure veg family restaurant · Sector 31 market", hi: "शुद्ध शाकाहारी फ़ैमिली रेस्टोरेंट · सेक्टर 31 मार्केट" },
+  banner: { en: "Open 7 AM to 2 AM · between Yes Bank & Indian Bank", hi: "सुबह 7 से रात 2 बजे तक · यस बैंक और इंडियन बैंक के बीच" },
+  phone: "919319307932",
+  phoneDisplay: "+91 93193 07932",
+  lat: 28.4530952,
+  lon: 77.0509449,
+  hours: [[7, 26], [7, 26], [7, 26], [7, 26], [7, 26], [7, 26], [7, 26]],
+  theme: {
+    dark: false,
+    bg: "#ffffff",
+    bg2: "#fff3ea",
+    panel: "#ffffff",
+    ink: "#26130a",
+    ink2: "#5e4535",
+    ink3: "#9a8172",
+    line: "#f6e0d1",
+    accent: "#ea580c",
+    onAccent: "#ffffff",
+    display: "Fredoka",
+    weight: 600,
+    upper: false,
+  },
+  scene: "thali",
+  align: "right",
+  hero: {
+    title: [
+      { en: "Pure veg, from breakfast", hi: "शुद्ध शाकाहारी, नाश्ते से" },
+      { en: "till 2 AM.", hi: "रात 2 बजे तक।" },
+    ],
+    proof: {
+      en: "4.8 on Google from 459 reviews. A pure veg family restaurant in Sector 31 market: dosa, Chinese, pav bhaji and more, open 7 AM to 2 AM.",
+      hi: "गूगल पर 459 रिव्यू से 4.8। सेक्टर 31 मार्केट में शुद्ध शाकाहारी फ़ैमिली रेस्टोरेंट: डोसा, चाइनीज़, पाव भाजी और भी बहुत कुछ, सुबह 7 से रात 2 बजे तक।",
+    },
+    fallback: "/img/p4.jpg",
+    slides: ["/img/p4.jpg", "/img/p9.jpg", "/img/p14.jpg"],
+  },
+  marquee: ["Pure Veg", "Dosa", "Chole Bhature", "Pav Bhaji", "Momos", "Paneer Tikka", "Open Till 2 AM"],
+  dishes: {
+    title: { en: "What families order", hi: "परिवार क्या ऑर्डर करते हैं" },
+    body: { en: "Real Google reviews, word for word.", hi: "असली गूगल रिव्यू, शब्दशः।" },
+    layout: "cards",
+    items: [
+      { name: { en: "Dosa", hi: "डोसा" }, quote: "Tried their dosa and it was really delicious. The service was also very good. One of the best places in Sector 31.", img: "/img/p4.jpg" },
+      { name: { en: "South Indian & Chinese", hi: "साउथ इंडियन और चाइनीज़" }, quote: "Amazing place for treat family and friends . Food was also delicious. Must try south indian and Chinese.❤️ love it.", img: "/img/p12.jpg" },
+      { name: { en: "Thali", hi: "थाली" }, quote: "Amazing experience at this pure veg restaurant! 🍀✨ The food was absolutely delicious, fresh, and full of authentic flavors.", img: "/img/p9.jpg" },
+    ],
+  },
+  gallery: {
+    title: { en: "On the menu", hi: "मेन्यू पर" },
+    layout: "strip",
+    photos: [
+      { src: "/img/p3.jpg", alt: "Pav bhaji" },
+      { src: "/img/p8.jpg", alt: "Momos" },
+      { src: "/img/p10.jpg", alt: "Paneer tikka", wide: true },
+      { src: "/img/p11.jpg", alt: "Chaat" },
+      { src: "/img/p14.jpg", alt: "Chole bhature" },
+      { src: "/img/p13.jpg", alt: "Pizza", wide: true },
+    ],
+  },
+  feature: {
+    kind: "hosts",
+    title: { en: "Service with respect", hi: "इज़्ज़त से सर्विस" },
+    body: { en: "Guests name the people who looked after them.", hi: "मेहमान उन लोगों का नाम लेते हैं जिन्होंने उनका ख़याल रखा।" },
+    img: "/img/p5.jpg",
+    hosts: [
+      { name: "Aasmin Khan", quote: "Special shout out to Aasmin Khan for being a gentle host throughout my stay 😁" },
+      { name: "Dev Sharma", quote: "Everything things is excellent and food test also very good n the service of the boy mr dev sharma also extremely very nice thanks 😊" },
+      { name: "The whole team", quote: "Food with taste, Service with respect. Love it 😍" },
+    ],
+  },
+  reviews: {
+    title: { en: "446 of 459 reviews are four or five stars", hi: "459 में से 446 रिव्यू चार या पांच स्टार" },
+    rating: 4.8,
+    dist: [417, 29, 1, 1, 11],
+    quotes: [
+      { quote: "Amazing food in such good ambience and good pricing that too in sce 31 market. Amazing place would recommend to everyone I know. Must visit. Best part is their timings are till 2am night.", stars: 5 },
+      { quote: "Good food. Great place for families with young kids", stars: 5 },
+      { quote: "Very tasty food at reasonable price. Appreciate very good service by aasmin khan.", stars: 5 },
+    ],
+  },
+  visit: {
+    title: { en: "Huda Market, Sector 31", hi: "हुडा मार्केट, सेक्टर 31" },
+    img: "/img/p1.jpg",
+    alt: "Touch of Spice shopfront at night",
+    address: { en: "SCO 39, Huda Market, Sector 31, between Yes Bank & Indian Bank, Gurugram 122001", hi: "SCO 39, हुडा मार्केट, सेक्टर 31, यस बैंक और इंडियन बैंक के बीच, गुरुग्राम 122001" },
+    note: { en: "7 AM to 2 AM, every day.", hi: "रोज़ सुबह 7 से रात 2 बजे तक।" },
+  },
+  build: {
+    title: { en: "Plan your order", hi: "अपना ऑर्डर तय कीजिए" },
+    body: { en: "Tap what you'd like, how many of you and when. It goes to WhatsApp exactly as you see it.", hi: "क्या चाहिए, कितने लोग और कब, टैप करें। मैसेज व्हाट्सएप पर ठीक ऐसे ही जाएगा।" },
+    items: [
+      { en: "Dosa", hi: "डोसा" },
+      { en: "Chole Bhature", hi: "छोले भटूरे" },
+      { en: "Pav Bhaji", hi: "पाव भाजी" },
+      { en: "Momos", hi: "मोमोज़" },
+      { en: "Paneer Tikka", hi: "पनीर टिक्का" },
+      { en: "Pizza", hi: "पिज़्ज़ा" },
+    ],
+    people: true,
+    when: true,
+    hello: { en: "Hi Touch of Spice, I'd like:", hi: "नमस्ते Touch of Spice, मुझे चाहिए:" },
+  },
+  waHello: {
+    en: "Hi Touch of Spice, I'd like to order. Items: , people: , time: ",
+    hi: "नमस्ते Touch of Spice, मुझे ऑर्डर देना है। आइटम: , लोग: , समय: ",
+  },
+  order: ["dishes", "gallery", "feature", "build", "reviews", "visit"],
+};
